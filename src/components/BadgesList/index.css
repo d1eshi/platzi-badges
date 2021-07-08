@@ -1,0 +1,35 @@
+ul li{
+  padding: .8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10) ;
+  border-radius: 8px;
+}
+ul li a {
+  display: flex;
+}
+
+ul li:not(:last-child){margin-bottom: 2em;}
+ul li img {
+  margin-right: 1em;
+  border-radius: 45%;
+}
+
+ul li p {
+  margin: 0;
+}
+
+
+ul li p:nth-child(1) {
+  display: inline-block;
+  padding: 4px 11px;
+  border-radius: .7em;
+  background-color: #7DCD40;
+}
+
+ul li p:nth-child(2) {
+  color: rgb(44, 167, 238);
+}
+ul li p:nth-child(3) {
+  color: #1B1B25;
+  font-size: .9rem;
+}
+ul li p:not(:last-child){margin-bottom: 4px;}
